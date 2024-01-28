@@ -9,20 +9,23 @@ html{
 body{
     font-family: 'Lato','sans-serif';
     margin: 0;
-    overflow: hidden;
 }
 .container {
     max-width: 1030px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 .slider {background-color: #81e4ed;
     padding: 20px 0 40px;
+    height: 100vh
 }
 
 /* .slider__inner {
 } */
-.slider__item,
+.slider__item{
+    min-height: 100%;
+}
 #slick-slide00,
 #slick-slide01,
 #slick-slide02,
